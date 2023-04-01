@@ -13,9 +13,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
-from sklearn.metrics import accuracy_score, confusion_matrix, plot_confusion_matrix, plot_roc_curve, \
-    classification_report
-import joblib
+from sklearn.metrics import confusion_matrix, classification_report
+#import joblib
 
 # Import the dataset
 df = pd.read_csv('data.csv')
